@@ -4,13 +4,13 @@ var h3 = document.getElementsByClassName('summ')[0];
 var h4 = document.getElementsByClassName('count')[0];
 
 window.onload = function() {
-    // var busnumber = prompt("busnumber");
-    // var number = prompt("number");
-    // var count = prompt("count");
+    var busnumber = prompt("busnumber");
+    var number = prompt("number");
+    var count = prompt("count");
 
-    var busnumber = "м324уй";
-    var number = "11";
-    var count = "2";
+//     var busnumber = "м324уй";
+//     var number = "11";
+//     var count = "2";
 
     h31.textContent = number;
     h2.textContent = busnumber.toUpperCase() + "159";
